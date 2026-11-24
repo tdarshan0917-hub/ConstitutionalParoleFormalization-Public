@@ -1,0 +1,62 @@
+Public Research Release 1.0 final local verification — 2026-11-24
+Formal source: 292ed75e0d1ce4f5f4a93794fb72a292f87182c6
+Publication source: b8e4072ef144742b56f27feffd08617b7b4c58d6
+Toolchain: leanprover/lean4:v4.35.0
+Build completed successfully (8 jobs).
+Integrity audit passed: 7 Lean files, 51 theorems, 2 verified sources, 11 claims.
+'ConstitutionalParole.federal_verified_disqualifier_conflict' depends on axioms: [propext]
+'ConstitutionalParole.ny_verified_disqualifier_conflict' depends on axioms: [propext]
+'ConstitutionalParole.federal_verified_uninvolved_compliant' depends on axioms: [propext]
+'ConstitutionalParole.ny_verified_uninvolved_compliant' depends on axioms: [propext]
+'ConstitutionalParole.federal_conflict_not_compliant' depends on axioms: [propext]
+'ConstitutionalParole.ny_conflict_not_compliant' depends on axioms: [propext]
+'ConstitutionalParole.missing_decisionmaker_indeterminate' depends on axioms: [propext]
+'ConstitutionalParole.contradictory_decisionmaker_indeterminate' depends on axioms: [propext]
+'ConstitutionalParole.verified_waiver_displaces' depends on axioms: [propext]
+'ConstitutionalParole.federal_initial_applicant_not_applicable' depends on axioms: [propext]
+'ConstitutionalParole.preserves_role_history_trans' depends on axioms: [propext]
+'ConstitutionalParole.prospective_reassignment_preserves_integrity' does not depend on any axioms
+'ConstitutionalParole.prospective_reassignment_preserves_role_history' does not depend on any axioms
+'ConstitutionalParole.reassignment_alone_cannot_establish_completeness' depends on axioms: [propext]
+'ConstitutionalParole.unvalidated_evidence_repair_is_noop' depends on axioms: [propext]
+'ConstitutionalParole.validated_evidence_repair_preserves_role_history' depends on axioms: [propext]
+'ConstitutionalParole.evidence_completion_requires_validated_complete_candidate' depends on axioms: [propext]
+'ConstitutionalParole.federal_prospective_reassignment_compliant' depends on axioms: [propext, Quot.sound]
+'ConstitutionalParole.federal_incomplete_reassignment_indeterminate' depends on axioms: [propext, Quot.sound]
+'ConstitutionalParole.federal_validated_evidence_repair_compliant' depends on axioms: [propext]
+'ConstitutionalParole.append_preserves_history' does not depend on any axioms
+'ConstitutionalParole.reachable_append' does not depend on any axioms
+'ConstitutionalParole.verified_federal_disqualifying_involvement' depends on axioms: [propext]
+'ConstitutionalParole.verified_federal_conflict_has_independent_structure' depends on axioms: [propext]
+'ConstitutionalParole.different_uninvolved_decisionmaker_complies' depends on axioms: [propext]
+'ConstitutionalParole.different_uninvolved_decisionmaker_has_independent_structure' depends on axioms: [propext]
+'ConstitutionalParole.same_agency_does_not_create_federal_conflict' depends on axioms: [propext]
+'ConstitutionalParole.missing_identity_is_indeterminate' depends on axioms: [propext]
+'ConstitutionalParole.contradictory_identity_is_indeterminate' depends on axioms: [propext]
+'ConstitutionalParole.missing_identity_cannot_establish_federal_conflict' depends on axioms: [propext]
+'ConstitutionalParole.contradictory_identity_cannot_establish_federal_conflict' depends on axioms: [propext]
+'ConstitutionalParole.initial_release_does_not_attach' depends on axioms: [propext]
+'ConstitutionalParole.initial_release_cannot_establish_this_revocation_conflict' depends on axioms: [propext]
+'ConstitutionalParole.verified_waiver_displaces_preliminary_assessment' depends on axioms: [propext]
+'ConstitutionalParole.verified_waiver_blocks_required_stage_conflict_classification' depends on axioms: [propext]
+'ConstitutionalParole.verified_ny_prior_supervisory_involvement' depends on axioms: [propext]
+'ConstitutionalParole.verified_ny_conflict_has_independent_structure' depends on axioms: [propext]
+'ConstitutionalParole.federal_conflict_does_not_force_ny_conflict' depends on axioms: [propext]
+'ConstitutionalParole.ny_attachment_can_exceed_narrow_federal_status' depends on axioms: [propext]
+'ConstitutionalParole.reassigned_complete_matter_is_compliant' depends on axioms: [propext]
+'ConstitutionalParole.reassigned_complete_matter_preserves_prior_history' does not depend on any axioms
+'ConstitutionalParole.original_conflict_remains_auditable_after_reassignment' depends on axioms: [propext]
+'ConstitutionalParole.incomplete_reassignment_remains_indeterminate' depends on axioms: [propext]
+'ConstitutionalParole.unvalidated_completion_candidate_cannot_change_integrity' depends on axioms: [propext]
+'ConstitutionalParole.validated_repair_is_compliant' depends on axioms: [propext]
+'ConstitutionalParole.validated_repair_preserves_original_history' depends on axioms: [propext]
+'ConstitutionalParole.original_conflict_history_survives_validated_repair' depends on axioms: [propext]
+'ConstitutionalParole.initial_conflict_trace_reachable' does not depend on any axioms
+'ConstitutionalParole.repair_trace_reachable' does not depend on any axioms
+'ConstitutionalParole.repaired_full_trace_reachable' does not depend on any axioms
+'ConstitutionalParole.repaired_trace_preserves_event_history' does not depend on any axioms
+Dependency audit passed: 51 theorems; allowed dependencies limited to propext, Quot.sound.
+Publication consistency passed: 534 summary words, 5 findings, 16 claims, 51 theorems.
+Public-tree scan passed: no internal reviewer path, private source URL, recognized credential pattern, or sensitive key/environment file.
+Zenodo metadata JSON passed.
+CITATION and workflow YAML passed.

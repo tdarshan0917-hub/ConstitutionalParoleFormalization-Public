@@ -1,0 +1,32 @@
+{
+  "title": "When Is a Parole Decisionmaker Independent? A Lean 4 Study of Procedural Independence, Evidence Integrity, and Correction",
+  "resource_type": "Publication / Preprint",
+  "creators": [
+    {
+      "name": "Darshan, Travis"
+    }
+  ],
+  "version": "1.0.0-preprint",
+  "description": "An independent, non-peer-reviewed research preprint presenting a source-bounded Lean 4 formalization of preliminary parole-revocation decisionmaker independence, evidence integrity, and prospective correction. Federal and New York predicates remain separate. The release includes 51 audited theorems, countermodels, synthetic witnesses, negative controls, three manuscripts, source and interpretation ledgers, and reproducibility evidence. Lean verifies implications from encoded definitions and supplied premises; it does not authenticate external records or establish a judicial violation, legal cure, remedy, or outcome. Independent legal and formal-methods reviews have not been obtained. Research, formalization, code development, auditing, and drafting were human-directed and AI-assisted; Travis Darshan is responsible for scope, interpretation, and presentation.",
+  "keywords": [
+    "parole revocation",
+    "procedural due process",
+    "New York Executive Law",
+    "formal verification",
+    "Lean 4",
+    "evidence integrity",
+    "administrative procedure"
+  ],
+  "language": "English",
+  "publication_date": "Set to the actual date of first public release",
+  "rights": "Copyright 2026 Travis Darshan. All rights reserved. No additional reuse license is granted by preparing this release.",
+  "doi": null,
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/tdarshan0917-hub/ConstitutionalParoleFormalization-Public/tree/v1.0.0-preprint",
+      "relation": "isIdenticalTo",
+      "note": "Proposed public source tag; activate only after the repository and tag are published."
+    }
+  ],
+  "note": "Human-readable deposit metadata draft. No Zenodo draft, DOI reservation, upload, or public deposit has been created. Enter a custom all-rights-reserved rights statement rather than accepting Zenodo's CC BY default unless an open license is separately authorized."
+}

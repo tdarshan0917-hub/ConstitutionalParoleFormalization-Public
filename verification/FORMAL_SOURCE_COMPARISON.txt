@@ -1,0 +1,23 @@
+Formal source comparison
+Source commit: 292ed75e0d1ce4f5f4a93794fb72a292f87182c6
+Source tree: bf3d3f65e0e752f003caacf6df05cff664048a49
+Compared byte-for-byte:
+PASS .github/workflows/verify.yml
+PASS ConstitutionalParole.lean
+PASS ConstitutionalParole/Assessment.lean
+PASS ConstitutionalParole/Audit.lean
+PASS ConstitutionalParole/Examples.lean
+PASS ConstitutionalParole/Model.lean
+PASS ConstitutionalParole/NegativeControls.lean
+PASS ConstitutionalParole/Trace.lean
+PASS audit/expected-axioms.json
+PASS audit/theorem-inventory.json
+PASS checks/dependency-audit.mjs
+PASS claims/claims.json
+PASS lake-manifest.json
+PASS lakefile.toml
+PASS lean-toolchain
+Lean/config files compared: 15
+Frozen integrity script SHA-256: d6009db64d145ed292f10c597c8b033f3e20956b633cc43febf9fac34170c619
+Public integrity script SHA-256: 4eeacc841b869440b4718fae4237f4ce94c358d4a75adf47db5c676497e48b71
+Integrity logic outside required-file list: PASS (byte-identical after normalization)

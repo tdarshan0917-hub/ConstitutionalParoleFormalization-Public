@@ -1,0 +1,17 @@
+# Interpretation Ledger
+
+| Item | Source holding/text | Prototype interpretation | Status / material uncertainty |
+|---|---|---|---|
+| Federal attachment | *Morrissey*, 408 U.S. at 480–82, protects an actual parolee’s conditional liberty in revocation. | `federalCovered` is true only for literal `parole`. | Conservative modeling assumption. Possible extension to analogous release statuses requires authority-specific research. |
+| Federal stage | *Morrissey*, 408 U.S. at 485–87, describes a preliminary inquiry after arrest/detention and before final revocation. | `PreliminaryDisposition.required` is an externally supplied gate. | Trigger logic and the accuracy of the supplied classification are not proved inside Lean. |
+| Federal actor rule | *Morrissey*, 408 U.S. at 485–86, requires someone not directly involved and identifies a person other than the reporter/recommender as sufficient. | Reporting or recommending is a disqualifying role. | Established core; broader meaning of direct involvement remains open. |
+| Administrative officer | *Morrissey* allows an administrative officer and does not require a judicial officer. | Same-agency employment alone is not a conflict. | Established negative boundary; other bias evidence is not foreclosed. |
+| New York coverage | Current § 259-i(3) lists presumptive release, parole, conditional release, and post-release supervision. | `nyCovered` contains those four statuses. | Established for revision displayed 2025-05-16; reversioning required 2027-09-01. |
+| New York actor rule | § 259-i(3)(c)(i)(A)–(B) bars preliminary officers with prior supervisory involvement over the alleged violator. | Only `priorSupervisoryInvolvement` is a New York disqualifier. | Text established; exact temporal and relational meaning needs case-law verification. |
+| Federal/New York relationship | The two authorities use different language and arise from different sources. | No equivalence axiom or theorem is provided. | Deliberate and required. |
+| Incomplete role record | Sources do not supply an evidence-completeness algorithm. | An affirmative supplied disqualifying-role entry may establish model conflict; absence in an incomplete record cannot establish compliance. | Modeling rule, not a legal holding; Lean does not authenticate the entry. |
+| Contradictory evidence | Sources presuppose factfinding. | Contradictory identity or record integrity yields `indeterminate`. | Modeling rule supporting source fidelity. |
+| Waiver | § 259-i(3)(d) mentions determination at preliminary hearing or waiver. | Only an externally supplied `validlyWaived` value displaces the stage. | Lean does not establish validity; validity elements are unresolved and external. No waiver from silence. |
+| New conviction | § 259-i(3)(d) separately references conviction of a new crime. | Not encoded as a standalone branch in 0.1; it must be resolved into the external stage gate. | Blocker for broader use. |
+| Repair | Neither cited source decides the remedial effect of a later reassignment in every posture. | Repair is prospective: the new actor may comply while prior events remain. | Operational result only; no cure, harmlessness, or mootness theorem. |
+| “Violation” | *Morrissey* supplies a constitutional obligation, but adjudication requires applicable law and proved facts. | The model uses `ConflictEstablished`, not `ConstitutionalViolation`. | Prevents a definitional shortcut and preserves the judicial/remedial boundary. |

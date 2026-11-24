@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "0.2",
+  "checkedOn": "2026-11-15",
+  "sources": [
+    {
+      "key": "USSC-MORRISSEY-1972",
+      "jurisdiction": "United States",
+      "authority": "U.S. Supreme Court",
+      "date": "1972-06-29",
+      "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep408/usrep408471/usrep408471.pdf",
+      "anchors": "408 U.S. 471, 480-487",
+      "status": "controlling_federal_holding"
+    },
+    {
+      "key": "NY-EXC-259I-REV-2025",
+      "jurisdiction": "New York",
+      "authority": "New York Legislature, official Open Legislation text",
+      "date": "2025-05-16",
+      "url": "https://www.nysenate.gov/legislation/laws/EXC/259-I",
+      "anchors": "Executive Law 259-i(3)(c)(i), (d)",
+      "status": "current_enacted_text_time_sensitive"
+    }
+  ],
+  "claims": [
+    {
+      "claimId": "CPF-FED-001",
+      "text": "For the modeled Morrissey preliminary stage, verified identity of the decisionmaker as the person who reported the violation or recommended revocation establishes a source-specific model conflict when attachment and record premises hold.",
+      "citations": ["USSC-MORRISSEY-1972"],
+      "verificationStatus": "verified_holding_conditional_model",
+      "anchors": ["408 U.S. at 485-486"],
+      "theorems": ["federal_verified_disqualifier_conflict", "verified_federal_disqualifying_involvement", "verified_federal_conflict_has_independent_structure"]
+    },
+    {
+      "claimId": "CPF-FED-002",
+      "text": "A different administrative officer with no verified reporter or recommender role can satisfy the narrow modeled federal actor-separation predicate; common agency employment alone is not disqualifying.",
+      "citations": ["USSC-MORRISSEY-1972"],
+      "verificationStatus": "verified_holding_conditional_model",
+      "anchors": ["408 U.S. at 485-486"],
+      "theorems": ["federal_verified_uninvolved_compliant", "different_uninvolved_decisionmaker_complies", "same_agency_does_not_create_federal_conflict"]
+    },
+    {
+      "claimId": "CPF-FED-003",
+      "text": "The prototype's Morrissey preliminary-revocation rule does not attach to a person modeled only as an initial discretionary release applicant.",
+      "citations": ["USSC-MORRISSEY-1972"],
+      "verificationStatus": "verified_scope_boundary",
+      "anchors": ["408 U.S. at 480-487"],
+      "theorems": ["federal_initial_applicant_not_applicable", "initial_release_does_not_attach", "initial_release_cannot_establish_this_revocation_conflict"]
+    },
+    {
+      "claimId": "CPF-NY-001",
+      "text": "Current New York preliminary-revocation procedure bars a designated hearing officer with prior supervisory involvement over the alleged violator in the covered statutory branches.",
+      "citations": ["NY-EXC-259I-REV-2025"],
+      "verificationStatus": "verified_statutory_text_conditional_model",
+      "anchors": ["Executive Law 259-i(3)(c)(i)(A)-(B)"],
+      "theorems": ["ny_verified_disqualifier_conflict", "verified_ny_prior_supervisory_involvement", "verified_ny_conflict_has_independent_structure"]
+    },
+    {
+      "claimId": "CPF-NY-002",
+      "text": "A verified covered New York preliminary decisionmaker with no prior supervisory involvement can satisfy the model's narrow statutory actor-separation predicate when the role record is complete.",
+      "citations": ["NY-EXC-259I-REV-2025"],
+      "verificationStatus": "verified_statutory_text_conditional_model",
+      "anchors": ["Executive Law 259-i(3)(c)(i)(A)-(B)"],
+      "theorems": ["ny_verified_uninvolved_compliant"]
+    },
+    {
+      "claimId": "CPF-STAGE-001",
+      "text": "A valid waiver may displace the preliminary-hearing route, but waiver validity is an external verified premise in Prototype 0.1.",
+      "citations": ["NY-EXC-259I-REV-2025"],
+      "verificationStatus": "statutory_reference_model_assumption_for_validity",
+      "anchors": ["Executive Law 259-i(3)(d)"],
+      "theorems": ["verified_waiver_displaces", "verified_waiver_displaces_preliminary_assessment", "verified_waiver_blocks_required_stage_conflict_classification"]
+    },
+    {
+      "claimId": "CPF-EVID-001",
+      "text": "Missing or contradictory actor identity blocks a conflict or compliance determination in this research model.",
+      "citations": [],
+      "verificationStatus": "modeling_rule",
+      "anchors": [],
+      "theorems": ["missing_decisionmaker_indeterminate", "contradictory_decisionmaker_indeterminate", "missing_identity_is_indeterminate", "contradictory_identity_is_indeterminate"]
+    },
+    {
+      "claimId": "CPF-SEPARATE-001",
+      "text": "The federal reporter/recommender relation and New York prior-supervisory-involvement relation are not treated as equivalent predicates.",
+      "citations": ["USSC-MORRISSEY-1972", "NY-EXC-259I-REV-2025"],
+      "verificationStatus": "source_comparison_and_countermodel",
+      "anchors": ["408 U.S. at 485-486", "Executive Law 259-i(3)(c)(i)"],
+      "theorems": ["federal_conflict_does_not_force_ny_conflict", "ny_attachment_can_exceed_narrow_federal_status"]
+    },
+    {
+      "claimId": "CPF-REPAIR-001",
+      "text": "Prospective reassignment preserves the existing integrity classification and all prior role events; it can establish narrow compliance only when the existing record was already complete.",
+      "citations": [],
+      "verificationStatus": "formal_operational_result_not_legal_cure",
+      "anchors": [],
+      "theorems": ["prospective_reassignment_preserves_integrity", "prospective_reassignment_preserves_role_history", "federal_prospective_reassignment_compliant", "original_conflict_remains_auditable_after_reassignment"]
+    },
+    {
+      "claimId": "CPF-REPAIR-002",
+      "text": "Reassignment alone cannot convert a non-complete record into a complete record, and an unvalidated completion submission has no effect.",
+      "citations": [],
+      "verificationStatus": "formal_operational_integrity_rule",
+      "anchors": [],
+      "theorems": ["reassignment_alone_cannot_establish_completeness", "unvalidated_evidence_repair_is_noop", "evidence_completion_requires_validated_complete_candidate", "federal_incomplete_reassignment_indeterminate", "incomplete_reassignment_remains_indeterminate", "unvalidated_completion_candidate_cannot_change_integrity"]
+    },
+    {
+      "claimId": "CPF-REPAIR-003",
+      "text": "An explicitly validated, history-extending, complete candidate record can support narrow prospective compliance when attachment, identity, and absence of the source-specific disqualifier are separately established.",
+      "citations": [],
+      "verificationStatus": "formal_operational_validated_repair_not_legal_cure",
+      "anchors": [],
+      "theorems": ["validated_evidence_repair_preserves_role_history", "federal_validated_evidence_repair_compliant", "validated_repair_is_compliant", "validated_repair_preserves_original_history", "original_conflict_history_survives_validated_repair"]
+    }
+  ]
+}

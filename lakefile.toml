@@ -1,0 +1,6 @@
+name = "constitutional_parole_formalization"
+version = "0.1.0"
+defaultTargets = ["ConstitutionalParole"]
+
+[[lean_lib]]
+name = "ConstitutionalParole"

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite this preprint title and version. Add its Zenodo DOI only after a DOI is registered."
+type: software
+title: "When Is a Parole Decisionmaker Independent? A Lean 4 Study of Procedural Independence, Evidence Integrity, and Correction"
+authors:
+  - family-names: Darshan
+    given-names: Travis
+version: "1.0.0-preprint"
+url: "https://github.com/tdarshan0917-hub/ConstitutionalParoleFormalization-Public"
+abstract: "A source-bounded Lean 4 preprint studying preliminary parole-revocation decisionmaker independence, evidence integrity, and prospective correction under separately represented federal and New York predicates. The artifact contains 51 audited theorems and synthetic examples. It does not authenticate external evidence or establish a judicial violation, legal cure, remedy, or outcome."
+keywords:
+  - parole revocation
+  - procedural due process
+  - New York Executive Law
+  - formal verification
+  - Lean 4
+  - evidence integrity
+  - administrative procedure
