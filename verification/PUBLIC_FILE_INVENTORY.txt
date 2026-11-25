@@ -9,6 +9,8 @@ ConstitutionalParole/Examples.lean
 ConstitutionalParole/Model.lean
 ConstitutionalParole/NegativeControls.lean
 ConstitutionalParole/Trace.lean
+LICENSE
+LICENSE-DOCUMENTS.md
 PROVENANCE.md
 README.md
 REPRODUCIBILITY.md
@@ -41,6 +43,7 @@ publications/pdf/ONE_PAGE_RESEARCH_SUMMARY.pdf
 publications/pdf/PUBLIC_RESEARCH_REPORT.pdf
 publications/pdf/TECHNICAL_RESEARCH_PAPER.pdf
 release/RELEASE_NOTES_v1.0.0-preprint.md
+release/RELEASE_NOTES_v1.0.1-preprint.md
 verification/FORMAL_SOURCE_COMPARISON.txt
 verification/LOCAL_RELEASE_VERIFICATION.log
 verification/PDF_QUALITY_REPORT.md

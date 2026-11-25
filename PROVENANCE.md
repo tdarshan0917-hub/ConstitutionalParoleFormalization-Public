@@ -46,6 +46,8 @@ The three manuscripts and 16-claim audit are derived from publication commit
   `complete`, and `validated` are externally supplied classifications;
 - updating public paths, citations, access dates, formatting, and reference
   links; and
+- applying the author-approved MIT license to original software and CC BY 4.0
+  to the three original reports, without changing substantive findings; and
 - adding public reproducibility, provenance, rights, citation, release, and
   Zenodo-preparation material.
 

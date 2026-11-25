@@ -1,4 +1,4 @@
-# Publication Claim Audit 1.0
+# Publication Claim Audit 1.0.1
 
 **Status:** public preprint claim-control material; not peer review or legal approval
 
@@ -7,6 +7,9 @@
 **Commit:** `292ed75e0d1ce4f5f4a93794fb72a292f87182c6`
 
 **Publication source:** `b8e4072ef144742b56f27feffd08617b7b4c58d6`
+
+**Licensing:** original software is MIT licensed; the three original reports
+and their PDFs are CC BY 4.0. Third-party rights are unchanged.
 
 ## Purpose
 

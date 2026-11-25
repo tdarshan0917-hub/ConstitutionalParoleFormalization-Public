@@ -1,13 +1,14 @@
 cff-version: 1.2.0
-message: "Please cite this preprint title and version. Add its Zenodo DOI only after a DOI is registered."
+message: "Please cite this preprint title and version. Software is MIT licensed; the three reports are CC BY 4.0. Add a Zenodo DOI only after registration."
 type: software
 title: "When Is a Parole Decisionmaker Independent? A Lean 4 Study of Procedural Independence, Evidence Integrity, and Correction"
 authors:
   - family-names: Darshan
     given-names: Travis
-version: "1.0.0-preprint"
+version: "1.0.1-preprint"
 url: "https://github.com/tdarshan0917-hub/ConstitutionalParoleFormalization-Public"
-abstract: "A source-bounded Lean 4 preprint studying preliminary parole-revocation decisionmaker independence, evidence integrity, and prospective correction under separately represented federal and New York predicates. The artifact contains 51 audited theorems and synthetic examples. It does not authenticate external evidence or establish a judicial violation, legal cure, remedy, or outcome."
+license: "MIT"
+abstract: "A source-bounded Lean 4 preprint studying preliminary parole-revocation decisionmaker independence, evidence integrity, and prospective correction under separately represented federal and New York predicates. The artifact contains 51 audited theorems and synthetic examples. It does not authenticate external evidence or establish a judicial violation, legal cure, remedy, or outcome. The software is MIT licensed; the one-page summary, public report, and technical paper are CC BY 4.0."
 keywords:
   - parole revocation
   - procedural due process

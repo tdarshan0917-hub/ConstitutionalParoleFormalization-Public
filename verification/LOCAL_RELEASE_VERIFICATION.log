@@ -1,6 +1,7 @@
-Public Research Release 1.0 final local verification — 2026-11-24
+Public Research Release 1.0.1 final local verification — 2026-11-24
 Formal source: 292ed75e0d1ce4f5f4a93794fb72a292f87182c6
 Publication source: b8e4072ef144742b56f27feffd08617b7b4c58d6
+Prior staging tag: v1.0.0-preprint -> 2bfcb861a9fd4b6feb3c7c28e659b1e7e27a4145
 Toolchain: leanprover/lean4:v4.35.0
 Build completed successfully (8 jobs).
 Integrity audit passed: 7 Lean files, 51 theorems, 2 verified sources, 11 claims.
@@ -56,7 +57,11 @@ Integrity audit passed: 7 Lean files, 51 theorems, 2 verified sources, 11 claims
 'ConstitutionalParole.repaired_full_trace_reachable' does not depend on any axioms
 'ConstitutionalParole.repaired_trace_preserves_event_history' does not depend on any axioms
 Dependency audit passed: 51 theorems; allowed dependencies limited to propext, Quot.sound.
-Publication consistency passed: 534 summary words, 5 findings, 16 claims, 51 theorems.
+Publication consistency passed: 550 summary words, 5 findings, 16 claims, 51 theorems.
 Public-tree scan passed: no internal reviewer path, private source URL, recognized credential pattern, or sensitive key/environment file.
-Zenodo metadata JSON passed.
+Zenodo dual-license metadata passed.
 CITATION and workflow YAML passed.
+ONE_PAGE_RESEARCH_SUMMARY.pdf: tagged=yes pages=1 letter=yes
+PUBLIC_RESEARCH_REPORT.pdf: tagged=yes pages=6 letter=yes
+TECHNICAL_RESEARCH_PAPER.pdf: tagged=yes pages=10 letter=yes
+PDF text extraction and license notices passed.

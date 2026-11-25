@@ -4,7 +4,11 @@
 
 ## A Lean 4 Study of Procedural Independence, Evidence Integrity, and Correction
 
-**Technical Research Paper 1.0 | Independent research preprint | November 2026**
+**Technical Research Paper 1.0.1 | Independent research preprint | November 2026**
+
+**License:** Original report © 2026 Travis Darshan, [CC BY
+4.0](https://creativecommons.org/licenses/by/4.0/). Third-party material retains
+its own rights.
 
 ## Abstract
 

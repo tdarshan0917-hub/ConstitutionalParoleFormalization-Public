@@ -4,7 +4,11 @@
 
 ## A Lean 4 Study of Procedural Independence, Evidence Integrity, and Correction
 
-**One-page Research Summary 1.0 | November 2026**
+**One-page Research Summary 1.0.1 | November 2026**
+
+**License:** Original report © 2026 Travis Darshan, [CC BY
+4.0](https://creativecommons.org/licenses/by/4.0/). Third-party material retains
+its own rights.
 
 This project asks a narrow question: when a legal source requires an independent
 decisionmaker at a preliminary parole-revocation stage, what follows from

@@ -1,4 +1,4 @@
-# Zenodo Deposit Guide — v1.0.0-preprint
+# Zenodo Deposit Guide — v1.0.1-preprint
 
 No Zenodo draft, DOI reservation, upload, or deposit has been created.
 
@@ -17,13 +17,19 @@ publication date to the date the materials first become publicly available.
 Do not add an ORCID, affiliation, funding source, peer-review claim, or DOI that
 has not been verified.
 
-## Rights decision
+## Licenses and rights
 
-Zenodo requires a license/rights entry and defaults to CC BY 4.0. This
-preparation retains copyright and grants no additional reuse license. Enter a
-custom “Copyright 2026 Travis Darshan. All rights reserved” statement unless
-Travis Darshan expressly authorizes a different license. Do not silently accept
-the default.
+Record both approved licenses with their scopes:
+
+- MIT for the original Lean 4 code, audit scripts, workflows, and associated
+  software;
+- CC BY 4.0 for the original one-page summary, public report, technical paper,
+  and their PDF renderings.
+
+Copyright remains © 2026 Travis Darshan. Preserve third-party rights for
+judicial opinions, statutory and official-source text, linked documents,
+quotations, and other third-party material. Do not apply either author license
+to third-party material.
 
 ## DOI and publication
 

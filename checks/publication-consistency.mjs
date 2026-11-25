@@ -5,6 +5,8 @@ const summary = read('publications/markdown/ONE_PAGE_RESEARCH_SUMMARY.md');
 const report = read('publications/markdown/PUBLIC_RESEARCH_REPORT.md');
 const paper = read('publications/markdown/TECHNICAL_RESEARCH_PAPER.md');
 const audit = read('docs/PUBLICATION_CLAIM_AUDIT.md');
+const mitLicense = read('LICENSE');
+const documentLicense = read('LICENSE-DOCUMENTS.md');
 const inventory = JSON.parse(read('audit/theorem-inventory.json'));
 const corpus = [summary, report, paper, audit].join('\n').replace(/\s+/g, ' ');
 
@@ -22,6 +24,10 @@ for (const [name, text] of Object.entries({summary, report, paper})) {
     /Independent legal and formal-methods reviews have not been obtained\./.test(text),
     `${name} lacks independent-review disclosure`
   );
+  requireCheck(
+    /CC BY\s+4\.0/.test(text) && /Third-party material retains\s+its own rights\./.test(text),
+    `${name} lacks scoped CC BY 4.0 and third-party-rights notice`
+  );
 }
 
 requireCheck(!/PRIVATE DRAFT|Internal independent-review draft|not approved for public release/i.test(corpus), 'internal/private publication status remains');
@@ -34,6 +40,20 @@ requireCheck(/externally supplied/i.test(corpus) && /`verified`, `complete`, and
 requireCheck(/trace model does not enforce|trace relation.{0,100}does not enforce/i.test(corpus), 'trace/classifier separation is missing');
 requireCheck(/not theorem consequences|motivate.{0,80}do not prove|motivated by/i.test(corpus), 'recommendation/theorem boundary is missing');
 requireCheck(!/complete earlier conflict history is preserved/i.test(corpus), 'overbroad conflict-history claim remains');
+requireCheck(fs.existsSync('LICENSE') && fs.existsSync('LICENSE-DOCUMENTS.md'), 'dual-license files are missing');
+requireCheck(
+  mitLicense.startsWith('MIT License\n\nCopyright (c) 2026 Travis Darshan') &&
+    mitLicense.includes('THE SOFTWARE IS PROVIDED "AS IS"'),
+  'root LICENSE is not the approved standard MIT text'
+);
+requireCheck(
+  documentLicense.includes('Creative Commons Attribution 4.0 International') &&
+    documentLicense.includes('publications/markdown/ONE_PAGE_RESEARCH_SUMMARY.md') &&
+    documentLicense.includes('publications/markdown/PUBLIC_RESEARCH_REPORT.md') &&
+    documentLicense.includes('publications/markdown/TECHNICAL_RESEARCH_PAPER.md') &&
+    /third-party material/i.test(documentLicense),
+  'document license is missing scope or third-party-rights protection'
+);
 
 if (failures.length) {
   for (const failure of failures) console.error(`FAIL: ${failure}`);

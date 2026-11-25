@@ -1,7 +1,7 @@
 # Local Release Audit Summary
 
 **Date:** 2026-11-24
-**Proposed tag:** `v1.0.0-preprint`
+**Proposed tag:** `v1.0.1-preprint`
 
 ## Passed
 
@@ -22,6 +22,9 @@
 - PDF quality: 1/6/10 pages, tagged, page-numbered, embedded Unicode fonts,
   text extraction and visual inspection passed.
 - Official reference targets: resolved.
+- Licensing: standard MIT license for original software; scoped CC BY 4.0
+  license for the three original reports and their PDFs; third-party rights
+  preserved.
 
 ## Not established
 
@@ -30,5 +33,6 @@ accessibility, or editorial reviews have not been obtained. The checks do not
 authenticate external evidence or establish a violation, cure, remedy, or
 outcome.
 
-No remote repository, public visibility change, GitHub release, DOI
-reservation, Zenodo draft, upload, or deposit was created by this audit.
+The GitHub repository remains private. No public visibility change, GitHub
+release, DOI reservation, Zenodo integration, draft, upload, or deposit was
+created by this licensing audit.

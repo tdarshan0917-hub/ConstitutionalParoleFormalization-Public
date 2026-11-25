@@ -4,7 +4,11 @@
 
 ## A Lean 4 Study of Procedural Independence, Evidence Integrity, and Correction
 
-**Public Research Report 1.0 | Independent research preprint | November 2026**
+**Public Research Report 1.0.1 | Independent research preprint | November 2026**
+
+**License:** Original report © 2026 Travis Darshan, [CC BY
+4.0](https://creativecommons.org/licenses/by/4.0/). Third-party material retains
+its own rights.
 
 This report describes a bounded formal research project. It is not legal advice,
 does not analyze a real parole matter, and does not determine that any person or

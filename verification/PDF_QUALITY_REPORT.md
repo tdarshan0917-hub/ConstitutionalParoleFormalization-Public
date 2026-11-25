@@ -2,6 +2,7 @@
 
 **Checked:** 2026-11-24
 **Renderer:** `marked` 15.0.12 and Google Chrome 157.0.8103.80
+**Release candidate:** `v1.0.1-preprint`
 
 | Artifact | Pages | Tagged | Page size | Live links | Embedded Unicode fonts | Text extraction |
 |---|---:|---:|---|---:|---|---|
@@ -18,6 +19,8 @@ Checks performed:
 - no Unicode replacement characters;
 - embedded Arial, Georgia, and Menlo font subsets with Unicode mappings;
 - extractable preprint status and independent-review disclosure;
+- extractable CC BY 4.0, copyright, and third-party-rights notices in all three
+  reports;
 - extractable *Morrissey*, `priorSupervisoryInvolvement`, and repaired-history
   theorem references;
 - live annotations for the official source links; and

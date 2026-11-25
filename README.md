@@ -89,12 +89,20 @@ This is a clean public-release tree. It contains no private Git history,
 branches, pull requests, reviewer correspondence, private case records, or
 internal review packet.
 
-## Citation and rights
+## Citation and licenses
+
+Copyright © 2026 Travis Darshan.
+
+- Original Lean 4 code, audit scripts, workflows, and associated software are
+  licensed under the [MIT License](LICENSE).
+- The original one-page summary, public report, and technical paper—in Markdown
+  and PDF—are licensed under [CC BY 4.0](LICENSE-DOCUMENTS.md).
+- Third-party legal sources and other third-party material retain their own
+  rights and attribution requirements.
 
 Citation metadata is in [CITATION.cff](CITATION.cff). No DOI has been reserved
-or registered. See [RIGHTS.md](RIGHTS.md): copyright is retained and this
-preparation does not grant an additional reuse license.
+or registered. See [RIGHTS.md](RIGHTS.md) for the complete scope statement.
 
-The proposed release tag is `v1.0.0-preprint`. Publication of the GitHub
+The proposed release tag is `v1.0.1-preprint`. Publication of the GitHub
 repository, GitHub release, or Zenodo record requires a separate explicit
 authorization.
